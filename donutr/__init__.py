@@ -26,6 +26,7 @@ def create_app(test_config=None):
     def index():
         return 'THE BEST DONUTS'
         
+    # a simple page that shows a donut
     @app.route('/donut')
     def hello():
         return 'THE GREATEST DONUTS!'
