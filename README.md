@@ -7,7 +7,6 @@ A flask webapp that...
 * Randomly select a new donut image for every day on the front page.
 * Anyone can vote on a donut to be the best donut. Hove to make voting a manual process somehow?
 * A donut image upload webform thats protected behind an login and auth.
-* 
 
 ## Cool extras
 
