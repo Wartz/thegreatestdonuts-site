@@ -27,3 +27,16 @@ Containerize the app, using 4 containers
 Plus: 
 
 Lets encrypt automatic SSL certs
+
+## Contribute
+
+ * Install python 3.7 or newer
+ * pull the repo (`git clone ...`)
+ * Enter the repo `cd thegreatestdonuts-site`
+ * configure a virtual env (`python3 -m venv .venv`) and activate (`source .venv/bin/activate`)
+ * Install the dependancies. `python3 -m pip install -r requirements.txt`
+ * Run the development server. 
+    * `export FLASK_ENV=development`
+    * `flask run`
+
+### Develop with docker
