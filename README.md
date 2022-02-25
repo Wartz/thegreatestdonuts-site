@@ -35,7 +35,8 @@ Lets encrypt automatic SSL certs
  * Enter the repo `cd thegreatestdonuts-site`
  * configure a virtual env (`python3 -m venv .venv`) and activate (`source .venv/bin/activate`)
  * Install the dependancies. `python3 -m pip install -r requirements.txt`
- * Run the development server. 
+ * Run the development server.
+    * `export FLASK_APP=donutr` 
     * `export FLASK_ENV=development`
     * `flask run`
 
