@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask
 
 def create_app(test_config=None):
@@ -27,8 +26,12 @@ def create_app(test_config=None):
         return 'THE BEST DONUTS'
         
     # a simple page that shows a donut
-    @app.route('/donut')
-    def hello():
+    @app.route('/leaderboard')
+    def leaderboard():
         return 'THE GREATEST DONUTS!'
+
+    @app.route('/alldonuts/')
+    def alldonuts():
+        return 'All the donuts'
 
     return app
